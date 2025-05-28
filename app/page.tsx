@@ -1,5 +1,8 @@
+'use client';
 import Head from 'next/head'
 import ProjectCard from '../components/ProjectCard'
+import { Typewriter } from 'react-simple-typewriter'
+
 
 export default function Home() {
   return (
@@ -10,7 +13,17 @@ export default function Home() {
       <main className="min-h-screen bg-gray-100 text-gray-900 px-6 py-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-4">Hi, I'm Nishok 👋</h1>
-          <p className="text-xl mb-8">Software Engineer | AI Projects | Problem Solver</p>
+          <h2 className="text-xl text-grey-600 mb-8">
+            <Typewriter
+              words={['Software Engineer', 'AI Builder', 'Problem Solver']}
+              loop={0}
+              cursor
+              cursorStyle="|"
+              typeSpeed={80}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </h2>
         </div>
 
         <section className="max-w-4xl mx-auto">
@@ -35,7 +48,15 @@ export default function Home() {
             My current stack includes Java, Python, GPT-4, Azure, MongoDB, and React.
           </p>
         </section>
-
+        <section className="max-w-3xl mx-auto mt-16">
+        <a
+          href="/resume.pdf"
+          download
+          className="inline-block bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700 transition"
+        >
+          📄 Download Resume
+        </a>
+        </section>
         {/* Contact Section */}
         <section className="max-w-3xl mx-auto mt-16">
           <h2 className="text-3xl font-semibold mb-4">📬 Contact</h2>
