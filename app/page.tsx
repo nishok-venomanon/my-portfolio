@@ -36,6 +36,12 @@ export default function Home() {
               liveLink="https://nishok-project-h49sh5xymwra25yuydzzzj.streamlit.app/"
               githubLink="https://github.com/nishok-venomanon/nishok-project"
             />
+            <ProjectCard
+              title="AI Resume Reviewer"
+              description="A GPT-4-powered resume reviewer that takes the resume and analyses strengths, improvements, ATS keywords, JD score."
+              liveLink="https://ai-code-reviewer-47fgrfl7obvqnca65pm2r9.streamlit.app/"
+              githubLink="https://github.com/nishok-venomanon/ai-code-reviewer"
+            />
             {/* Add more ProjectCards here */}
           </div>
         </section>
