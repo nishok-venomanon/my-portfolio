@@ -32,15 +32,21 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             <ProjectCard
               title="AI Ops Log Analyzer"
-              description="A GPT-4-powered log analysis tool that summarizes logs, detects root causes, and stores results in MongoDB. Comes with a Streamlit dashboard."
+              description="LLM-powered log analysis tool that summarizes logs, detects root causes, and stores results in MongoDB. Comes with a Streamlit dashboard."
               liveLink="https://nishok-project-h49sh5xymwra25yuydzzzj.streamlit.app/"
               githubLink="https://github.com/nishok-venomanon/nishok-project"
             />
             <ProjectCard
               title="AI Resume Reviewer"
-              description="A GPT-4-powered resume reviewer that takes the resume and analyses strengths, improvements, ATS keywords, JD score."
+              description="LLM powered resume reviewer that takes the resume and analyses strengths, improvements, ATS keywords, JD score."
               liveLink="https://ai-code-reviewer-47fgrfl7obvqnca65pm2r9.streamlit.app/"
               githubLink="https://github.com/nishok-venomanon/ai-code-reviewer"
+            />
+            <ProjectCard
+              title="AI Spotify music recommender"
+              description="LLM powered music recommender that recommends music based on your tastes."
+              liveLink="https://ai-code-reviewer-47fgrfl7obvqnca65pm2r9.streamlit.app/"
+              githubLink="https://github.com/nishok-venomanon/spotify"
             />
             {/* Add more ProjectCards here */}
           </div>
