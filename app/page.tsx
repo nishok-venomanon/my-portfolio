@@ -45,7 +45,7 @@ export default function Home() {
             <ProjectCard
               title="AI Spotify music recommender"
               description="LLM powered music recommender that recommends music based on your tastes."
-              liveLink="https://ai-code-reviewer-47fgrfl7obvqnca65pm2r9.streamlit.app/"
+              liveLink="https://spotify-nswhkyrcx6gpy3rvrndcyv.streamlit.app/"
               githubLink="https://github.com/nishok-venomanon/spotify"
             />
             {/* Add more ProjectCards here */}
